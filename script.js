@@ -14,9 +14,9 @@ for (let i = 0; i < foods.length; i++){
 // "My #2 favorite food is Sushi"
 // ...etc.
 
-
-
-
+for (let i = 0; i < foods.length; i++){
+  console.log(`My #${i + 1} favorite food is ${foods[i]}.`);
+}
 
 // 4a. Create a function printFoodRecommendation(foodName) that prints out the following for the foodName provided
     // "Have you ever tried ____?"
